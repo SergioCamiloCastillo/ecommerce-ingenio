@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from "next/link";
+import Layout from "../components/Layout";
 
 const information = () => {
     return (
+        <Layout>
+
        <div className="Main">
         <div className="Information">
             <div className="Information-content">
@@ -40,7 +43,7 @@ const information = () => {
             </div>
         </div>
         </div>
-
+</Layout>
     );
 }
 

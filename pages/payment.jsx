@@ -1,7 +1,10 @@
 import React from 'react';
+import Layout from "../components/Layout";
 
 const payment = () => {
     return (
+        <Layout>
+
         <div className="Main">
 
         <div className="Payment">
@@ -12,6 +15,7 @@ const payment = () => {
             <div></div>
         </div>
         </div>
+        </Layout>
     );
 }
 
